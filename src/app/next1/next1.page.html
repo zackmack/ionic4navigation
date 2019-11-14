@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>next1</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<a #divClick id="prevbtn" class="floatleft nextPrevBtn mobilePrev" [routerLink]="['/next1',{chapter:'chnext1'}]" routerDirection="back">Prev</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a id="nxtbtn" class="floatright nextPrevBtn mobileNext" [routerLink]="['/next2',{chapter:'next2'}]" routerDirection="forward">next</a >
+</ion-content>
