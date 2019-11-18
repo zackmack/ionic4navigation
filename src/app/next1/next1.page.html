@@ -4,7 +4,16 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content> 
+
+<div>
+
+  <audio controls  src="#" class="audioplaychapter" controls controlsList="nodownload"  preload="none">
+      Your device does not support the audio element.
+    </audio>
+</div>
+
+
 <a #divClick id="prevbtn" class="floatleft nextPrevBtn mobilePrev" [routerLink]="['/next1',{chapter:'chnext1'}]" routerDirection="back">Prev</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
